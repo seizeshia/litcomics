@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  comicbookapp
 //
-//  Created by caesar shia on 5/30/17.
+//  Created by joed lara, caesar shia on 5/30/17.
 //  Copyright © 2017 Code School. All rights reserved.
 //
 

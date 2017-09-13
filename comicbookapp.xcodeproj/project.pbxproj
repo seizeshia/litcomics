@@ -8,22 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		8D47F4B01EDE12B800F31222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47F4AF1EDE12B800F31222 /* AppDelegate.swift */; };
-		8D47F4B21EDE12B800F31222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47F4B11EDE12B800F31222 /* ViewController.swift */; };
+		8D47F4B21EDE12B800F31222 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47F4B11EDE12B800F31222 /* firstViewController.swift */; };
 		8D47F4B51EDE12B800F31222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D47F4B31EDE12B800F31222 /* Main.storyboard */; };
 		8D47F4B81EDE12B800F31222 /* comicbookapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D47F4B61EDE12B800F31222 /* comicbookapp.xcdatamodeld */; };
 		8D47F4BA1EDE12B800F31222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D47F4B91EDE12B800F31222 /* Assets.xcassets */; };
 		8D47F4BD1EDE12B800F31222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D47F4BB1EDE12B800F31222 /* LaunchScreen.storyboard */; };
+		8D47F4C51EDE1A5A00F31222 /* secondTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47F4C41EDE1A5A00F31222 /* secondTableTableViewController.swift */; };
+		8D47F4C71EDE1BB600F31222 /* customcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47F4C61EDE1BB600F31222 /* customcell.swift */; };
+		8D47F4CB1EDE5A1D00F31222 /* comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47F4CA1EDE5A1D00F31222 /* comic.swift */; };
+		8D47F4CD1EDE80BA00F31222 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47F4CC1EDE80BA00F31222 /* detailsViewController.swift */; };
+		8D6BD2681EE109FB0091ECD5 /* NewreleaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD2671EE109FB0091ECD5 /* NewreleaseTableViewController.swift */; };
+		8D6BD26A1EE10E250091ECD5 /* customCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD2691EE10E250091ECD5 /* customCell2.swift */; };
+		8D6BD26C1EE10F470091ECD5 /* comicsss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD26B1EE10F470091ECD5 /* comicsss.swift */; };
+		8D6BD26E1EE110150091ECD5 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD26D1EE110150091ECD5 /* newViewController.swift */; };
+		8D6BD2701EE166A40091ECD5 /* favCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD26F1EE166A40091ECD5 /* favCustomCell.swift */; };
+		8D7D72461F63A1320021FB70 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D72451F63A1320021FB70 /* searchViewController.swift */; };
+		8D7D72481F63A8190021FB70 /* searchdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D72471F63A8190021FB70 /* searchdelegate.swift */; };
+		8DA2F2EC1F1AB593005B8F6D /* regViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2F2EB1F1AB593005B8F6D /* regViewController.swift */; };
+		8DA2F2EE1F1AB795005B8F6D /* users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2F2ED1F1AB795005B8F6D /* users.swift */; };
+		D28EF7AF1EE1489A008B815A /* favesTVControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28EF7AE1EE1489A008B815A /* favesTVControllerTableViewController.swift */; };
+		F8D01B7636747B18B4CDD3F3 /* Pods_comicbookapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9A314DA20BF44041A1A370 /* Pods_comicbookapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		191E7A1B3D1A1D11B7C3E188 /* Pods-comicbookapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comicbookapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-comicbookapp/Pods-comicbookapp.debug.xcconfig"; sourceTree = "<group>"; };
+		58F5E02525D313BD9E9A6C21 /* Pods-comicbookapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comicbookapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-comicbookapp/Pods-comicbookapp.release.xcconfig"; sourceTree = "<group>"; };
 		8D47F4AC1EDE12B800F31222 /* comicbookapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comicbookapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D47F4AF1EDE12B800F31222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D47F4B11EDE12B800F31222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D47F4B11EDE12B800F31222 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		8D47F4B41EDE12B800F31222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D47F4B71EDE12B800F31222 /* comicbookapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = comicbookapp.xcdatamodel; sourceTree = "<group>"; };
 		8D47F4B91EDE12B800F31222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D47F4BC1EDE12B800F31222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D47F4BE1EDE12B800F31222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D47F4C41EDE1A5A00F31222 /* secondTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondTableTableViewController.swift; sourceTree = "<group>"; };
+		8D47F4C61EDE1BB600F31222 /* customcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customcell.swift; sourceTree = "<group>"; };
+		8D47F4CA1EDE5A1D00F31222 /* comic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = comic.swift; sourceTree = "<group>"; };
+		8D47F4CC1EDE80BA00F31222 /* detailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		8D6BD2671EE109FB0091ECD5 /* NewreleaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewreleaseTableViewController.swift; sourceTree = "<group>"; };
+		8D6BD2691EE10E250091ECD5 /* customCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCell2.swift; sourceTree = "<group>"; };
+		8D6BD26B1EE10F470091ECD5 /* comicsss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = comicsss.swift; sourceTree = "<group>"; };
+		8D6BD26D1EE110150091ECD5 /* newViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
+		8D6BD26F1EE166A40091ECD5 /* favCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favCustomCell.swift; sourceTree = "<group>"; };
+		8D7D72451F63A1320021FB70 /* searchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		8D7D72471F63A8190021FB70 /* searchdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchdelegate.swift; sourceTree = "<group>"; };
+		8DA2F2EB1F1AB593005B8F6D /* regViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = regViewController.swift; sourceTree = "<group>"; };
+		8DA2F2ED1F1AB795005B8F6D /* users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = users.swift; sourceTree = "<group>"; };
+		D28EF7AE1EE1489A008B815A /* favesTVControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favesTVControllerTableViewController.swift; sourceTree = "<group>"; };
+		DA9A314DA20BF44041A1A370 /* Pods_comicbookapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_comicbookapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D01B7636747B18B4CDD3F3 /* Pods_comicbookapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0B86F731BA0AE295B78A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9A314DA20BF44041A1A370 /* Pods_comicbookapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D47F4A31EDE12B800F31222 = {
 			isa = PBXGroup;
 			children = (
 				8D47F4AE1EDE12B800F31222 /* comicbookapp */,
 				8D47F4AD1EDE12B800F31222 /* Products */,
+				A62F5E41488226A765B2554C /* Pods */,
+				2B0B86F731BA0AE295B78A2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +100,37 @@
 			isa = PBXGroup;
 			children = (
 				8D47F4AF1EDE12B800F31222 /* AppDelegate.swift */,
-				8D47F4B11EDE12B800F31222 /* ViewController.swift */,
+				8D47F4B11EDE12B800F31222 /* firstViewController.swift */,
+				8D7D72451F63A1320021FB70 /* searchViewController.swift */,
+				8D47F4C41EDE1A5A00F31222 /* secondTableTableViewController.swift */,
+				8D47F4CC1EDE80BA00F31222 /* detailsViewController.swift */,
+				8D47F4C61EDE1BB600F31222 /* customcell.swift */,
+				8D47F4CA1EDE5A1D00F31222 /* comic.swift */,
 				8D47F4B31EDE12B800F31222 /* Main.storyboard */,
+				8DA2F2EB1F1AB593005B8F6D /* regViewController.swift */,
+				8D6BD2671EE109FB0091ECD5 /* NewreleaseTableViewController.swift */,
+				8D6BD26D1EE110150091ECD5 /* newViewController.swift */,
+				8D6BD2691EE10E250091ECD5 /* customCell2.swift */,
+				8D6BD26B1EE10F470091ECD5 /* comicsss.swift */,
 				8D47F4B91EDE12B800F31222 /* Assets.xcassets */,
 				8D47F4BB1EDE12B800F31222 /* LaunchScreen.storyboard */,
+				8D7D72471F63A8190021FB70 /* searchdelegate.swift */,
+				D28EF7AE1EE1489A008B815A /* favesTVControllerTableViewController.swift */,
+				8D6BD26F1EE166A40091ECD5 /* favCustomCell.swift */,
 				8D47F4BE1EDE12B800F31222 /* Info.plist */,
 				8D47F4B61EDE12B800F31222 /* comicbookapp.xcdatamodeld */,
+				8DA2F2ED1F1AB795005B8F6D /* users.swift */,
 			);
 			path = comicbookapp;
+			sourceTree = "<group>";
+		};
+		A62F5E41488226A765B2554C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				191E7A1B3D1A1D11B7C3E188 /* Pods-comicbookapp.debug.xcconfig */,
+				58F5E02525D313BD9E9A6C21 /* Pods-comicbookapp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D47F4C11EDE12B800F31222 /* Build configuration list for PBXNativeTarget "comicbookapp" */;
 			buildPhases = (
+				A08AF88EC0C41D6576271A6D /* [CP] Check Pods Manifest.lock */,
 				8D47F4A81EDE12B800F31222 /* Sources */,
 				8D47F4A91EDE12B800F31222 /* Frameworks */,
 				8D47F4AA1EDE12B800F31222 /* Resources */,
+				47C9212BFD37332EDDEA871D /* [CP] Embed Pods Frameworks */,
+				FA864404962090B8572D474A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,14 +204,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47C9212BFD37332EDDEA871D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-comicbookapp/Pods-comicbookapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08AF88EC0C41D6576271A6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA864404962090B8572D474A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-comicbookapp/Pods-comicbookapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D47F4A81EDE12B800F31222 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D47F4C71EDE1BB600F31222 /* customcell.swift in Sources */,
+				8DA2F2EE1F1AB795005B8F6D /* users.swift in Sources */,
 				8D47F4B81EDE12B800F31222 /* comicbookapp.xcdatamodeld in Sources */,
-				8D47F4B21EDE12B800F31222 /* ViewController.swift in Sources */,
+				8D7D72481F63A8190021FB70 /* searchdelegate.swift in Sources */,
+				8D47F4B21EDE12B800F31222 /* firstViewController.swift in Sources */,
+				8D6BD2701EE166A40091ECD5 /* favCustomCell.swift in Sources */,
+				8D47F4CD1EDE80BA00F31222 /* detailsViewController.swift in Sources */,
+				8D6BD26A1EE10E250091ECD5 /* customCell2.swift in Sources */,
+				8D6BD26C1EE10F470091ECD5 /* comicsss.swift in Sources */,
+				8D47F4C51EDE1A5A00F31222 /* secondTableTableViewController.swift in Sources */,
+				8D6BD2681EE109FB0091ECD5 /* NewreleaseTableViewController.swift in Sources */,
+				8DA2F2EC1F1AB593005B8F6D /* regViewController.swift in Sources */,
+				8D47F4CB1EDE5A1D00F31222 /* comic.swift in Sources */,
+				8D7D72461F63A1320021FB70 /* searchViewController.swift in Sources */,
 				8D47F4B01EDE12B800F31222 /* AppDelegate.swift in Sources */,
+				8D6BD26E1EE110150091ECD5 /* newViewController.swift in Sources */,
+				D28EF7AF1EE1489A008B815A /* favesTVControllerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,12 +394,13 @@
 		};
 		8D47F4C21EDE12B800F31222 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191E7A1B3D1A1D11B7C3E188 /* Pods-comicbookapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GTU9V5DCSF;
 				INFOPLIST_FILE = comicbookapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeschool.comicbookapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caesar.comicbookapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,12 +408,13 @@
 		};
 		8D47F4C31EDE12B800F31222 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F5E02525D313BD9E9A6C21 /* Pods-comicbookapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GTU9V5DCSF;
 				INFOPLIST_FILE = comicbookapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codeschool.comicbookapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caesar.comicbookapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -306,6 +439,7 @@
 				8D47F4C31EDE12B800F31222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
